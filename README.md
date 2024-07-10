@@ -1,3 +1,7 @@
+*keeper-Finals-(React)	
+Fully functional React webapp which mimics keep Note (Volatile memory)
+![preview](https://github.com/tayrondd/JavaScript-Projects/assets/77041022/236ce779-c8df-44ad-ac96-fb133dced48b)
+
 *Dice Challenge	
 Every time the page is reloaded dices will be changed each time and tell us how to win using DOM
 ![preview](https://github.com/tayrondd/JavaScript-Projects/assets/77041022/f9ca19de-1867-47a4-bced-b1e145a11b66)
