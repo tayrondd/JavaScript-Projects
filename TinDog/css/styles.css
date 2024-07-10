@@ -1,0 +1,176 @@
+body {
+  font-family: 'Montserrat-Black', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: bold;
+}
+
+/* sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.wh-section {
+  background-color: white;
+}
+
+/* Nav-bar */
+.navbar {
+  padding: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  font-family: 'Montserrat-light', sans-serif;
+}
+
+.nav-padding {
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Title */
+#title {
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.title-img {
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* features */
+#features {
+  padding: 7% 15%;
+  position: relative;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.features-icons {
+  height: 30%;
+  width: 30%;
+  color: #ef8172;
+}
+
+.features-icons:hover {
+  color: #ff4c68;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* <!-- Testimonials --> */
+#testimonials {
+  padding-bottom: 3%;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px 20px;
+}
+
+/* Pricing */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-text {
+  font-size: 3rem;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+.btn-pricing {
+  width: 90%;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+/* call to action */
+#cta {
+  padding-top: 100px;
+}
+
+/* footer */
+#footer {
+  padding: 80px;
+  padding-left: 30px;
+}
+
+.footer-icons {
+  color: Black;
+  font-size: 150%;
+  letter-spacing: 15px;
+}
+
+/* Mobile web */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: absolute;
+    transform: rotate(0);
+  }
+
+  .img-row {
+    margin-bottom: 350px;
+  }
+}
